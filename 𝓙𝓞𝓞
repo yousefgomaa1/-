@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>الصفحة الشخصية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #b30000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .social-links {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #b30000;
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #b30000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مرحبا بكم في صفحتي الشخصية</h1>
+    </header>
+
+    <img src="your-image.jpg" alt="الصورة الشخصية" class="profile-pic">
+
+    <div class="social-links">
+        <h2>تواصل معي عبر وسائل التواصل الاجتماعي</h2>
+        <a href="https://www.facebook.com" target="_blank">فيسبوك</a>
+        <a href="https://www.twitter.com" target="_blank">تويتر</a>
+        <a href="https://www.linkedin.com" target="_blank">لينكدإن</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 - صفحتي الشخصية</p>
+    </footer>
+
+</body>
+</html>
